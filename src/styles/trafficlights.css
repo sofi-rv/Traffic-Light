@@ -1,5 +1,14 @@
-.row {
+.traffic-lights {
     background-color: black;
+    display:inline-block;
+    padding: 10px;
+    margin-left:600px;
+}
+.stick{
+    background-color: black;
+    width: 10px;
+    height: 80px;
+    margin-left: 635px;
 }
 
 .red {
@@ -24,5 +33,6 @@
 }
 
 .on {
-    box-shadow: 0 0 60px white;
+    box-shadow: 0 0 80px white;
+    
 }
