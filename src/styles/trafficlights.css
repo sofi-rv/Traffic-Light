@@ -1,14 +1,13 @@
-.traffic-lights {
+.container {
     background-color: black;
-    display:inline-block;
-    padding: 10px;
-    margin-left:600px;
+    width: 70px;
 }
-.stick{
+
+.stick {
     background-color: black;
     width: 10px;
     height: 80px;
-    margin-left: 635px;
+    margin-left: 677px;
 }
 
 .red {
@@ -16,6 +15,7 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 .yellow {
@@ -30,9 +30,10 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .on {
     box-shadow: 0 0 80px white;
-    
+
 }

@@ -9,10 +9,10 @@ const TrafficLights = () => {
 
     return (
         <>
-            <div className="stick"></div>
-            <div className="traffic-lights rounded">
+            <div className= "stick"></div>
+            <div className="container rounded">
                 <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col d-flex justify-content-center flex-column align-items-center column">
+                    <div className="col d-flex justify-content-center flex-column align-items-center">
                         <div className={redOn == false ? "red" : "red on"} onClick={(e) => {
                             setRedOn(!redOn)
                             setYellowOn(false)
